@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Build instructions: https://sailfishos.org/wiki/Sailfish_X_HADK -->
+  <!-- Build instructions: https://sailfishos.org/wiki/Sailfish_X_Build_and_Flash -->
   <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <remote fetch="https://github.com/mer-hybris/" name="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
