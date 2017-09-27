@@ -11,6 +11,7 @@
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="8b70766be6cdf8f84e9a397721002d2cfac92d41" upstream="master"/>
   <project name="android_external_libnfc-nci" path="external/libnfc-nci" remote="sony-patches" revision="1f96f086d1b2c962f180734bd468d31014f298e8" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_external_toybox" path="external/toybox" remote="sony-patches" revision="678f2bbd26af4599e73150a8c598d189dfc121e1" upstream="sony-aosp-6.0.1_r80-20170902"/>
+  <project name="platform/frameworks/av" path="frameworks/av" remote="sony-patches" revision="5a3f4558b42deef0faf64dd99bf740e086be2053" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_frameworks_base" path="frameworks/base" remote="sony-patches" revision="de9587cbab4f17c7744e7ef721c54aad9680d0f6" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="sony-patches" revision="9b8fa2a0bdf668cd1273bfde388b0e351c46b212" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="sony-patches" revision="97490d1923dc459a7502c9f488d55a8c4577caf7" upstream="sony-aosp-6.0.1_r80-20170902"/>
@@ -147,7 +148,6 @@
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="1a3216ee244bbe78dadd484716d59c4d0e823245" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/external/zlib" path="external/zlib" revision="a15adad27b1a33de2f4c788809ba97cff726cf58" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="platform/frameworks/av" path="frameworks/av" revision="f9a47ed0b153251a93b2f6a6b699aaad4764605a" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="b7f05114e5f408479b50647837cdf25187bfd164" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="8c10afdc806cbb9d4560e90b100f0dcefdd46a21" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="83d9692ee33de81b19738356a342682593686c34" upstream="refs/tags/android-6.0.1_r80"/>

@@ -12,6 +12,7 @@
 
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sony-patches"/>
   <project path="external/toybox" name="android_external_toybox" remote="sony-patches"/>
+  <project path="frameworks/av" name="platform/frameworks/av" remote="sony-patches"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="sony-patches"/>
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sony-patches"/>
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="sony-patches"/>
@@ -160,7 +161,6 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
   <project path="external/zlib" name="platform/external/zlib"/>
   <project path="external/zopfli" name="platform/external/zopfli"/>
-  <project path="frameworks/av" name="platform/frameworks/av"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc"/>
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang"/>
