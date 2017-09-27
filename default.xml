@@ -12,7 +12,7 @@
 
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sony-patches"/>
   <project path="external/toybox" name="android_external_toybox" remote="sony-patches"/>
-  <project path="frameworks/av" name="platform/frameworks/av" remote="sony-patches"/>
+  <project path="frameworks/av" name="android_frameworks_av" remote="sony-patches"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="sony-patches"/>
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sony-patches"/>
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="sony-patches"/>
