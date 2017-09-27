@@ -14,7 +14,7 @@
   <project name="android_frameworks_base" path="frameworks/base" remote="sony-patches" revision="de9587cbab4f17c7744e7ef721c54aad9680d0f6" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="sony-patches" revision="9b8fa2a0bdf668cd1273bfde388b0e351c46b212" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="sony-patches" revision="97490d1923dc459a7502c9f488d55a8c4577caf7" upstream="sony-aosp-6.0.1_r80-20170902"/>
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="sony-patches" revision="d287a046899d47a60c9728946982f65e0b85ceb4" upstream="sony-aosp-6.0.1_r80-20170902"/>
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="sony-patches" revision="24be7b102d897f02824d6a326adc7c52ae21b42e" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="sony-patches" revision="4101df8814dcffe665146d1f9611fb08fe7076f6" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="sony-patches" revision="4d71e2437811266093c31cab4c4da7d081f68176" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="sony-patches" revision="140e47c0deac29b4fe12408f450ba8200aa469bb" upstream="sony-aosp-6.0.1_r80-20170902"/>
