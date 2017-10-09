@@ -9,36 +9,38 @@
   
   <default remote="aosp" revision="refs/tags/android-6.0.1_r80" sync-j="4"/>
   
-  <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="8b70766be6cdf8f84e9a397721002d2cfac92d41" upstream="master"/>
-  <project name="android_bionic" path="bionic" remote="hybris-patches" revision="95109f2f7e929566d8f7cc795427e65b77925881" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
+  <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="16fca3e60bf4e3890ddddeb7c119a42ef03a90d6" upstream="master"/>
+  <project name="android_bionic" path="bionic" remote="hybris-patches" revision="8ffd793ffb9d02974192ccfff78eb501ffd61b54" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_build" path="build" remote="hybris-patches" revision="969055934c7ed20f83b79194eff1c3b3b9214568" upstream="hybris-sony-aosp-6.0.1_r80-20170902">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="android_external_busybox" path="external/busybox" remote="hybris-patches" revision="c4bd5269c05a4291335a923da58ad2a7e652f975" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_external_toybox" path="external/toybox" remote="sony-patches" revision="678f2bbd26af4599e73150a8c598d189dfc121e1" upstream="sony-aosp-6.0.1_r80-20170902"/>
+  <project name="android_frameworks_av" path="frameworks/av" remote="sony-patches" revision="5a3f4558b42deef0faf64dd99bf740e086be2053" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_frameworks_base" path="frameworks/base" remote="sony-patches" revision="de9587cbab4f17c7744e7ef721c54aad9680d0f6" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_frameworks_native" path="frameworks/native" remote="hybris-patches" revision="eb62b481f713c3a3c5d32a2ece78fa45b9537e46" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="sony-patches" revision="97490d1923dc459a7502c9f488d55a8c4577caf7" upstream="sony-aosp-6.0.1_r80-20170902"/>
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="sony-patches" revision="24be7b102d897f02824d6a326adc7c52ae21b42e" upstream="sony-aosp-6.0.1_r80-20170902"/>
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="sony-patches" revision="97e9d015ef617ed77fe9c88b0f6c51d889afa2b7" upstream="sony-aosp-6.0.1_r80-20170902"/>
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="sony-patches" revision="55ca23ebe58d178d7784bf0e427d0df9bae43329" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="sony-patches" revision="4101df8814dcffe665146d1f9611fb08fe7076f6" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="sony-patches" revision="4d71e2437811266093c31cab4c4da7d081f68176" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="sony-patches" revision="140e47c0deac29b4fe12408f450ba8200aa469bb" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="sony-patches" revision="c35f8b426620c458c94048e55a884a9c0b91b1e4" upstream="sony-aosp-6.0.1_r80-20170902"/>
-  <project name="android_hardware_ril" path="hardware/ril" remote="sony-patches" revision="6522613603aa556b0794b2d1eacd5934f5110f01" upstream="sony-aosp-6.0.1_r80-20170902"/>
+  <project name="android_hardware_ril" path="hardware/ril" remote="sony-patches" revision="4e15283fb76b9af5c286dda4cdd2e57e9e22ed6c" upstream="sony-aosp-6.0.1_r80-20170902"/>
   <project name="android_kernel_sony_msm" path="kernel/sony/msm" remote="hybris-patches" revision="913a4ff3b91ad886165cb56055d2a93392cc8c9e" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
-  <project name="android_system_core" path="system/core" remote="hybris-patches" revision="0dc4bd1840d1a2fbd88b363ea375d880bdd8c31b" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
+  <project name="android_system_core" path="system/core" remote="hybris-patches" revision="58c3df67d8dc0b5783f8db473c0caeea0b0d1204" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="camera" path="hardware/qcom/camera" remote="sony" revision="b66cda07a10d0ff2b043f6d391d62d938a1cf203" upstream="aosp/LA.BR.1.3.3_rb2.14"/>
-  <project name="device-sony-common" path="device/sony/common" remote="hybris-patches" revision="da354ad31d8fecdd63a66713da0566d0f6856106" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
+  <project name="device-sony-common" path="device/sony/common" remote="hybris-patches" revision="c1a6aea7efdef6876c906b6dcab399283f744582" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="device-sony-common-headers" path="device/sony/common-headers" remote="sony" revision="65c7a0cf63a4258f09d11cd856d39e1e3199a640" upstream="aosp/LA.BR.1.3.3_rb2.14"/>
   <project name="device-sony-common-init" path="device/sony/common-init" remote="sony" revision="6ec88d15e6b1d09fd38119ba668ce318adcf78d5" upstream="m-mr1"/>
-  <project name="device-sony-loire" path="device/sony/loire" remote="hybris-patches" revision="6e839fa0a6abe472a0bf2df6bcc3f6140872f499" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
+  <project name="device-sony-loire" path="device/sony/loire" remote="hybris-patches" revision="abe6a0cd1ce903a63c1ebbf192d7a4a334a87c3f" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="cbc0af26db3265f46642d02534928ae3388c9c40" upstream="m-mr1"/>
-  <project name="device-sony-suzu" path="device/sony/suzu" remote="hybris-patches" revision="8c4659e5569fd13ae96635aa2daf146f87873322" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
+  <project name="device-sony-suzu" path="device/sony/suzu" remote="hybris-patches" revision="b7ef3c77d6f4eaaeefc5afcaf6c28cd3c87fd2ca" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="device/common" revision="762617a12642c9de3e3ce66b26f6c8b122c06e0f" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="droid-hal-f5121" path="rpm" remote="hybris" revision="dfb72cf07b0f373f1a7cb83a7af1b4387f0743c4" upstream="master"/>
-  <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="7a6a859bdc97d2b7eed13bc5568ebcaf425ee2f0" upstream="master"/>
-  <project name="macaddrsetup" path="vendor/sony-oss/macaddrsetup" remote="sony" revision="311408b6ff4cd10b43e5631ce8be627d603633bc" upstream="master"/>
+  <project name="droid-hal-f5121" path="rpm" remote="hybris" revision="ffdc71d972a91c30357eeb8e1a0da9d641150e15" upstream="master"/>
+  <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="837e5f9ac6025edc838c9dfc235b251872202b0a" upstream="master"/>
+  <project name="macaddrsetup" path="vendor/sony-oss/macaddrsetup" remote="sony" revision="dceef471f223dbea9d87fdbec98c5e05d961758d" upstream="master"/>
   <project name="mer-kernel-check" path="hybris/mer-kernel-check" remote="hybris" revision="5d7354ce49d4909171a4b4c301b36b63fea71cfd" upstream="master"/>
   <project name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="99adefa7a36774115f18272e67a7ebe7d1b3fb9b" upstream="refs/tags/android-6.0.1_r80"/>
@@ -85,7 +87,6 @@
   <project name="platform/external/webp" path="external/webp" revision="9e80ee991168a0a6c2a906dd2c17c5e17df4566e" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="1a3216ee244bbe78dadd484716d59c4d0e823245" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/external/zlib" path="external/zlib" revision="a15adad27b1a33de2f4c788809ba97cff726cf58" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="platform/frameworks/av" path="frameworks/av" revision="f9a47ed0b153251a93b2f6a6b699aaad4764605a" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="b7f05114e5f408479b50647837cdf25187bfd164" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="83d9692ee33de81b19738356a342682593686c34" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="709f713ebcd62c61defc270d945810efca179621" upstream="refs/tags/android-6.0.1_r80"/>
@@ -107,7 +108,6 @@
   <project name="platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video" revision="cf82d4e3f5d063a5a284662052cbbc6f124f37e3" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/hardware/intel/sensors" path="hardware/intel/sensors" revision="6ef7662419981a762df75fbc57fcfde52902c123" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/hardware/invensense" path="hardware/invensense" revision="e0c1691f695f828608c36315fa405db2fa8d153e" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="58f48179cc250c770ee66a2d79651563b66e23de" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="8af982d029f575a91158cbc870fdc94a70203134" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/hardware/marvell/bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/hardware/mediatek" path="hardware/mediatek" revision="84eac90753d5c99bc0b05df34c400d1f58c01213" upstream="refs/tags/android-6.0.1_r80"/>
@@ -141,13 +141,13 @@
   <project name="platform/system/extras" path="system/extras" revision="83eeed92430fc3f14c21cfc43d11fcecef6e8285" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/system/media" path="system/media" revision="310ec8ed84f3c64e18f75ee6980c405170aa77dd" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/system/netd" path="system/netd" revision="c8683d7eb9bb95de2090431e8daaa45d92b45e38" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="thermanager" path="vendor/sony-oss/thermanager" remote="sony" revision="60e15f0dc4828bafbb83d027eaefb067878a7615" upstream="master"/>
-  <project name="timekeep" path="vendor/sony-oss/timekeep" remote="sony" revision="1d0130eb83da510c56ad53955977c4ea6060589d" upstream="master"/>
-  <project name="vendor-broadcom-bt-fm" path="vendor/broadcom/bt-fm" remote="sony" revision="cbf8b3e4935be3be1343c9f690b7bc7385bde773" upstream="master"/>
+  <project name="thermanager" path="vendor/sony-oss/thermanager" remote="sony" revision="383805fcec4634288085b7b9f0729e2a968ae7f9" upstream="master"/>
+  <project name="timekeep" path="vendor/sony-oss/timekeep" remote="sony" revision="193d39a2411eb336717595b580a45a50f9a6d62d" upstream="master"/>
+  <project name="vendor-broadcom-bt-fm" path="vendor/broadcom/bt-fm" remote="sony" revision="2da2991694277c0e29782fbadffe69027adeb09a" upstream="master"/>
   <project name="vendor-broadcom-wlan" path="vendor/broadcom/wlan" remote="sony" revision="c91fb00eb661055f0837f4a1b64c26dec0bae43b" upstream="master"/>
-  <project name="vendor-nxp" path="vendor/nxp/" remote="sony" revision="c65ad592e4b0a2994f27dbbde32825aed2a1cd6b" upstream="master"/>
-  <project name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="ec30914d05895b0b328d95ad4db4a6f863d98626" upstream="master"/>
+  <project name="vendor-nxp" path="vendor/nxp/" remote="sony" revision="d050ec12ef6e622c2a1b268c9ff90ccbe14dec7e" upstream="master"/>
+  <project name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="11000ae202fe824c732efde149cf90becec015c0" upstream="master"/>
   <project name="vendor-qcom-opensource-fm" path="vendor/qcom/opensource/fm" remote="sony" revision="aabbad189c592aa67facec37bb4d52eb5f991738" upstream="master"/>
-  <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="246ff9468011e209ef1ccad8d9ffc072c04042e1" upstream="m-mr1"/>
-  <project name="vendor-sony-oss-fingerprint" path="vendor/sony-oss/fingerprint" remote="sony" revision="2eb911f450bb470acacc206c96b247d19e453050" upstream="master"/>
+  <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="4901f9495363d5bb9bce784a932cdcf3ee1fbd3e" upstream="m-mr1"/>
+  <project name="vendor-sony-oss-fingerprint" path="vendor/sony-oss/fingerprint" remote="sony" revision="59bb4e148d0563f4f971b849dd39e28655cc45d5" upstream="master"/>
 </manifest>
