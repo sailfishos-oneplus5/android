@@ -101,15 +101,15 @@
   <project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" revision="master"/>
   <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" revision="master"/>
   <project name="sailfishos/droidmedia" path="external/droidmedia" revision="master"/>
-  <project groups="pdk" name="mer-hybris/android_bionic" path="bionic" revision="ef7432cc40d58b7359a2b6f5b6f9f5f5ea52510a" upstream="hybris-14.1"/>
-  <project groups="pdk,tradefed" name="mer-hybris/android_build" path="build" revision="11ab7d96a47c4d67f5fe94f71eaa7607c91876da" upstream="hybris-14.1">
+  <project groups="pdk" name="mer-hybris/android_bionic" path="bionic" revision="hybris-14.1"/>
+  <project groups="pdk,tradefed" name="mer-hybris/android_build" path="build" revision="hybris-14.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project groups="pdk" name="mer-hybris/android_frameworks_av" path="frameworks/av" revision="35e6e1c819896f97e6f5fdaaf1fa548aa19d7756" upstream="hybris-14.1"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="mer-hybris/android_frameworks_base" path="frameworks/base" revision="c945ab4bfede1715673ea06f44084e028c5d648c" upstream="hybris-14.1"/>
-  <project groups="pdk" name="mer-hybris/android_frameworks_native" path="frameworks/native" revision="e00b040378b5becda030e7c46826a9affb22fffd" upstream="hybris-14.1"/>
-  <project groups="pdk" name="mer-hybris/android_hardware_libhardware" path="hardware/libhardware" revision="a3c28ffeb08744ab3df7725058ae99569d89862c" upstream="hybris-14.1"/>
-  <project groups="pdk" name="mer-hybris/android_system_core" path="system/core" revision="7ff97b76a50fbc2c6944b85b7be042cee45869a7" upstream="hybris-14.1"/>
+  <project groups="pdk" name="mer-hybris/android_frameworks_av" path="frameworks/av" revision="hybris-14.1"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="mer-hybris/android_frameworks_base" path="frameworks/base" revision="hybris-14.1"/>
+  <project groups="pdk" name="mer-hybris/android_frameworks_native" path="frameworks/native" revision="hybris-14.1"/>
+  <project groups="pdk" name="mer-hybris/android_hardware_libhardware" path="hardware/libhardware" revision="hybris-14.1"/>
+  <project groups="pdk" name="mer-hybris/android_system_core" path="system/core" revision="hybris-14.1"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" remote="aosp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.2_r29"/>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="aosp" revision="3a89d1ce9fe7a5160ee87ee11f99edbf540020fc" upstream="refs/tags/android-7.1.2_r29"/>
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" remote="aosp" revision="ff019aa4cff6f8636102003ac14de5442ea6758f" upstream="refs/tags/android-7.1.2_r29">
