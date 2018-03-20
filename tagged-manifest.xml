@@ -229,5 +229,5 @@
   <project name="vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" remote="sony" revision="11000ae202fe824c732efde149cf90becec015c0" upstream="master"/>
   <project name="vendor-qcom-opensource-fm" path="vendor/qcom/opensource/fm" remote="sony" revision="aabbad189c592aa67facec37bb4d52eb5f991738" upstream="master"/>
   <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="4901f9495363d5bb9bce784a932cdcf3ee1fbd3e" upstream="m-mr1"/>
-  <project name="vendor-sony-oss-fingerprint" path="vendor/sony-oss/fingerprint" remote="sony" revision="59bb4e148d0563f4f971b849dd39e28655cc45d5" upstream="master"/>
+  <project name="vendor-sony-oss-fingerprint" path="vendor/sony-oss/fingerprint" remote="sony-patches" revision="21611f67965b92a653dc2a60d4a4dd4bf3f6193e" upstream="sony-aosp-6.0.1_r80-20170902"/>
 </manifest>
