@@ -34,7 +34,7 @@
   <project name="device/common" revision="762617a12642c9de3e3ce66b26f6c8b122c06e0f" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="device/sample" revision="b239828ba6f282793de417a46770c192c153ac47" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="droid-src-syspart-f5121" path="rpm" remote="hybris" revision="db22af3d2d85448c3c2d921e36f6c22b70809ed4" upstream="master"/>
+  <project name="droid-src-syspart-f5121" path="rpm" remote="hybris" revision="f7fde68f40a5811d27d5609fd755005a8ea0c51c" upstream="master"/>
   <project name="kernel" path="kernel/sony/msm" remote="sony" revision="90059be594ea30d1442ef1985e41c633c2bb8365" upstream="aosp/LA.BR.1.3.3_rb2.14"/>
   <project name="macaddrsetup" path="vendor/sony-oss/macaddrsetup" remote="sony" revision="dceef471f223dbea9d87fdbec98c5e05d961758d" upstream="master"/>
   <project name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-6.0.1_r80"/>
