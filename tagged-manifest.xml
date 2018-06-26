@@ -29,7 +29,7 @@
   <project name="device-sony-suzu" path="device/sony/suzu" remote="sony" revision="7aa251793167303bda68dc5bfd8b142852fab4ec" upstream="m-mr1"/>
   <project name="device/common" revision="762617a12642c9de3e3ce66b26f6c8b122c06e0f" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="droid-src-f5121" path="rpm" remote="hybris" revision="afbe3d387fd248d6297c818ea1061adf20437d9e" upstream="master"/>
+  <project name="droid-src-f5121" path="rpm" remote="hybris" revision="8f5d75ee18fd7075db02a1d726e54cdc2bbdd09d" upstream="master"/>
   <project name="kernel" path="kernel/sony/msm" remote="sony" revision="90059be594ea30d1442ef1985e41c633c2bb8365" upstream="aosp/LA.BR.1.3.3_rb2.14"/>
   <project name="macaddrsetup" path="vendor/sony-oss/macaddrsetup" remote="sony" revision="dceef471f223dbea9d87fdbec98c5e05d961758d" upstream="master"/>
   <project name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-6.0.1_r80"/>
