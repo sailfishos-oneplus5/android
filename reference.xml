@@ -1,0 +1,3 @@
+<reference>
+   <device name="f5121" url="https://github.com/mer-hybris/android.git" branch="hybris-sony-aosp-6.0.1_r80-20170902"/>
+</reference>
