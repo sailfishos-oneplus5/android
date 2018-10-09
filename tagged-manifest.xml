@@ -30,7 +30,7 @@
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="hybris-patches" revision="d3779468c4821b0914c5d67088577b5874a3633e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="hybris-patches" revision="663dbe453987314ac5831efd07897b3e929d8023" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="hybris-patches" revision="e01e032feb6df056104beda1cf682afb5ef98a2f" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
-  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="11ce243044810e00370108ca69c73e54ab43189c" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="2467feba81065d140678d1f4dcd2f5011d664d7f" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_system_core" path="system/core" remote="hybris-patches" revision="8b9d9f1397390e2db1fd8421211c71208931afd7" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="android_system_nfc" path="system/nfc" remote="hybris-patches" revision="0e036edb77546f74a2c7eea9c5506415cb1dde2e" upstream="hybris-sony-aosp-8.1.0_r35_20180714"/>
   <project name="camera" path="vendor/qcom/opensource/camera" remote="sony" revision="dc9af5d36009caa60b9b01a256a7f8ce4c1897f1" upstream="aosp/LA.UM.6.4.r1"/>
@@ -65,7 +65,7 @@
   <project clone-depth="1" name="device/google/vrservices" revision="b290ba549b38447937773e3698e4678015550684" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="device/google/wahoo" revision="e9e17ed4e99b168e8ce7a999b22bde4ffb32fcc7" upstream="refs/tags/android-8.1.0_r35"/>
   <project name="device/sample" revision="509608c76570d623c05952c8eecdc2868ca8a952" upstream="refs/tags/android-8.1.0_r35"/>
-  <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="35804daa51ee589e0a6e26a99da945ee015151d8" upstream="master"/>
+  <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="0bf22c7499eb05586b78ea2b48ce34c591cff8d6" upstream="master"/>
   <project name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="e63f75021d59ad0e922f5fafe740ab9e7eff707b" upstream="aosp/LA.UM.6.3.r1"/>
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="d8a7fe7303cdc5f1087a186cd95388c979fc4dad" upstream="master"/>
   <project name="hybris-boot" path="hybris/hybris-boot" remote="hybris" revision="ad32797d6470ad76d8def9964473a572845c4eae" upstream="master"/>
