@@ -26,7 +26,7 @@
   <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="1c8a27b35ac69219559d83d61ec1e7adae3fb21e" upstream="o-mr1"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="feb2210169ca22487922af094770000d98aa1e32" upstream="o-mr1"/>
   <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="c42041ee34bd841eb10930bef179b8b80744b530" upstream="o-mr1"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="231ea22d4945509e290c6e894308d2b5e41e1c7b" upstream="o-mr1"/>
+  <project name="device-sony-common" path="device/sony/common" remote="patches" revision="c8abf76f61c081ef97fd618ffc7c654dfe33e6c3" upstream="droid-src-sony-aosp-8.1.0_r52_20190206"/>
   <project name="device-sony-common-headers" path="kernel/sony/msm-4.4/common-headers" remote="sony" revision="c7e52e0c6cedf83c15d938688365d0a6b6bbd3fe" upstream="aosp/LA.UM.6.4.r1"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="75f84718e827166e85fa60a04b41886b30a7b053" upstream="o-mr1"/>
   <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="a91b3065d7751584f0dbc8018970a0b13382a776" upstream="o-mr1"/>
