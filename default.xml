@@ -39,7 +39,7 @@
   <project name="device-sony-akatsuki" path="device/sony/akatsuki" remote="sony" revision="o-mr1"/>
   <project name="device-sony-apollo" path="device/sony/apollo" remote="sony" revision="o-mr1"/>
   <project name="device-sony-blanc" path="device/sony/blanc" remote="sony" revision="o-mr1"/>
-  <project name="device-sony-common" path="device/sony/common" remote="sony" revision="o-mr1"/>
+  <project name="device-sony-common" path="device/sony/common" remote="sony-patches"/>
   <project name="device-sony-common-headers" path="kernel/sony/msm-4.4/common-headers" remote="sony" revision="aosp/LA.UM.6.4.r1"/>
   <project name="device-sony-discovery" path="device/sony/discovery" remote="sony" revision="o-mr1"/>
   <project name="device-sony-dora" path="device/sony/dora" remote="sony" revision="o-mr1"/>
@@ -67,12 +67,13 @@
   <project clone-depth="1" name="device/google/vrservices"/>
   <project name="device/google/wahoo"/>
   <project name="device/sample"/>
-  <project path="hardware/qcom/display/sde" name="hardware-qcom-display" remote="sony" revision="aosp/LA.UM.6.3.r1" />
+  <project name="hardware-qcom-display" path="hardware/qcom/display/msmfb" remote="sony" revision="aosp/LA.UM.6.3.r1"/>
+  <project name="hardware-qcom-display" path="hardware/qcom/display/sde" remote="sony" revision="aosp/LA.UM.7.3.r1"/>
   <project name="hardware-qcom-wlan" path="vendor/qcom/opensource/wlan" remote="sony" revision="master"/>
   <project name="kernel/tests"/>
   <project name="macaddrsetup" path="vendor/oss/macaddrsetup" remote="sony" revision="master"/>
   <project name="packages-apps-FMRadio" path="packages/apps/FMRadio" remote="sony" revision="master"/>
-  <project name="packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="sony" revision="master"/>
+  <project name="packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="sony" revision="o-mr1"/>
   <project name="platform/art" path="art"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
   <project name="platform/build/blueprint" path="build/blueprint"/>
@@ -595,7 +596,7 @@
   <project name="thermanager" path="vendor/oss/thermanager" remote="sony" revision="master"/>
   <project name="timekeep" path="vendor/oss/timekeep" remote="sony" revision="master"/>
   <project name="toolchain/binutils"/>
-  <project name="transpower" path="vendor/oss/transpower" remote="sony" revision="master"/>
+  <project name="transpower" path="vendor/oss/transpower" remote="sony" revision="android-8.1.0_r35"/>
   <project name="vendor-broadcom-bt-fm" path="vendor/broadcom/bt-fm" remote="sony" revision="master"/>
   <project name="vendor-broadcom-wlan" path="vendor/broadcom/wlan" remote="sony" revision="master"/>
   <project name="vendor-nxp" path="vendor/nxp/" remote="sony" revision="master"/>
