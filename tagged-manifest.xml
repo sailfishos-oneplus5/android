@@ -32,7 +32,7 @@
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="sony-patches" revision="a7be416c0d8f383138964a84c9f8668e213b935b" upstream="droid-src-sony-aosp-8.1.0_r52_20190206"/>
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="sony-patches" revision="31fb126c9c30d20036b08c6c1663980a1e6c30f1" upstream="droid-src-sony-aosp-8.1.0_r52_20190206"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="sony-patches" revision="ce9e3ad83a958bd3bb8c66ef4b0254fb1883d5b0" upstream="droid-src-sony-aosp-8.1.0_r52_20190206"/>
-  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="632c27e774e8ad0a30c97075da4912abaca0c70d" upstream="hybris-sony-aosp-8.1.0_r52_20190206"/>
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="hybris-patches" revision="67300c06d193e0d55dee887c0cce823e8c99fdd3" upstream="hybris-sony-aosp-8.1.0_r52_20190206"/>
   <project name="android_system_core" path="system/core" remote="hybris-patches" revision="3a94ff983623f83393b7ca4818b9fd941d6901ab" upstream="hybris-sony-aosp-8.1.0_r52_20190206"/>
   <project name="android_system_nfc" path="system/nfc" remote="sony-patches" revision="d98fb8fdcb1cb55f53560b12c2420979dd00efec" upstream="droid-src-sony-aosp-8.1.0_r52_20190206"/>
   <project name="android_system_vold" path="system/vold" remote="sony-patches" revision="a351c39be1b5148ad73e8f8e6d56b691366ba5be" upstream="droid-src-sony-aosp-8.1.0_r52_20190206"/>
@@ -605,9 +605,9 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="43af668f4802a26220b17393635a637a857af0fa" upstream="o-mr1"/>
-  <project name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="da68c7f2f560703880d2204c9b050849dfed6aa3" upstream="aosp/LA.UM.6.4.r1"/>
-  <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="3f0e701ec2fd40984c66ddc6b4bb52d6c8a20fc1" upstream="aosp/LA.UM.6.4.r1"/>
-  <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="ce1d5f37accf1fa896c9f3b52e89cb643a1e0d98" upstream="aosp/LA.UM.6.4.r1"/>
+  <project name="vendor-qcom-opensource-wlan-fw-api" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/fw-api" remote="sony" revision="fe41c8d61e096501b8de937dac684008d667b8a7" upstream="aosp/LA.UM.7.3.r1"/>
+  <project name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" remote="sony" revision="8becfc0299c98d8d509de53773e732714ec16148" upstream="aosp/LA.UM.7.3.r1"/>
+  <project name="vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" remote="sony" revision="8dcf1fbf8bbfadbe6fbad47f9b9389f41221477d" upstream="aosp/LA.UM.7.3.r1"/>
   <project name="vendor-sony-oss-cash" path="vendor/oss/cash" remote="sony" revision="65d04f688a41599821f9d33a080509784b24e1de" upstream="master"/>
   <project name="vendor-sony-oss-fingerprint" path="vendor/oss/fingerprint" remote="sony" revision="82a274e02032cf4260c142490ea486e56cc98aa6" upstream="master"/>
   <project name="vendor-sony-oss-projection" path="vendor/oss/projection" remote="sony" revision="ea763867a7fa1b859d310d08fac4fd4763f0b39a" upstream="master"/>
