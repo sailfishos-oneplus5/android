@@ -6,6 +6,7 @@
   <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   <remote fetch="https://github.com/mer-hybris/" name="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <remote fetch="https://github.com/mer-hybris/" name="sailfish-policy" revision="master"/>
   
   <default remote="aosp" revision="refs/tags/android-6.0.1_r80" sync-j="4"/>
   
@@ -35,6 +36,7 @@
   <project name="device-sony-common-init" path="device/sony/common-init" remote="sony" revision="6ec88d15e6b1d09fd38119ba668ce318adcf78d5" upstream="m-mr1"/>
   <project name="device-sony-loire" path="device/sony/loire" remote="hybris-patches" revision="abe6a0cd1ce903a63c1ebbf192d7a4a334a87c3f" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="device-sony-sepolicy" path="device/sony/sepolicy" remote="sony" revision="cbc0af26db3265f46642d02534928ae3388c9c40" upstream="m-mr1"/>
+  <project name="sailfish-policy-f5121" path="device/sailfish/policy" revision="e0754f23254004092e34eb9015348eb75674bdd5" remote="sailfish-policy" upstream="master"/>
   <project name="device-sony-suzu" path="device/sony/suzu" remote="hybris-patches" revision="b7ef3c77d6f4eaaeefc5afcaf6c28cd3c87fd2ca" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project name="device/common" revision="762617a12642c9de3e3ce66b26f6c8b122c06e0f" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-6.0.1_r80"/>

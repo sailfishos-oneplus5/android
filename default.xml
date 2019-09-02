@@ -4,6 +4,7 @@
   <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <remote fetch="https://github.com/mer-hybris/" name="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
+  <remote fetch="https://github.com/mer-hybris/" name="sailfish-policy" revision="master"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
@@ -41,6 +42,7 @@
   <project path="device/sony/common-headers" name="device-sony-common-headers" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14"/>
   <project path="device/sony/common-init" name="device-sony-common-init" remote="sony" revision="m-mr1"/>
   <project path="device/sony/sepolicy" name="device-sony-sepolicy" remote="sony" revision="m-mr1"/>
+  <project path="device/sailfish/policy" name="sailfish-policy-f5121" remote="sailfish-policy" revision="master"/>
   <project path="hardware/qcom/camera" name="camera" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14"/>
   <project path="vendor/broadcom/bt-fm" name="vendor-broadcom-bt-fm" remote="sony" revision="master"/>
   <project path="vendor/broadcom/wlan" name="vendor-broadcom-wlan" remote="sony" revision="master"/>
