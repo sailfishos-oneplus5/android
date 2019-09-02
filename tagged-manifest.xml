@@ -80,7 +80,7 @@
   <project name="platform/external/protobuf" path="external/protobuf" revision="2f4d8a1b744e2e62dcd68b7cb7159000e5751975" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/external/selinux" path="external/selinux" revision="7d48e4a4a2c77a7cbb8f74af34c85563c2c1d81c" upstream="refs/tags/android-6.0.1_r80"/>
-  <project name="platform/external/sepolicy" path="external/sepolicy" revision="2c1c98146c7f4f47b6fc2a27139b7caccfe0c2d1" upstream="refs/tags/android-6.0.1_r80"/>
+  <project name="sailfish-external-sepolicy-f5121" path="external/sepolicy" remote="sailfish-policy" revision="0a59c0ce657df344891d8258b1b0d1efd792f38f" upstream="master"/>
   <project name="platform/external/skia" path="external/skia" revision="a5dd198e906b7a0dd6080481e7dc45d796843b9a" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/external/sonivox" path="external/sonivox" revision="f3ac2de06b57a0dae719016ebba3ed5b64a061cc" upstream="refs/tags/android-6.0.1_r80"/>
   <project name="platform/external/speex" path="external/speex" revision="ff03110e77ec7fe716c5be11783746f59c814e30" upstream="refs/tags/android-6.0.1_r80"/>
