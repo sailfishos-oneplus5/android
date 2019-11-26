@@ -83,7 +83,9 @@
   <project name="LineageOS/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="f75d24a45f68dfeabda86d2e8416990d796f9a7e" upstream="refs/heads/cm-14.1"/>
   <project name="LineageOS/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="bcf2967acf1a644a59cb113891ad618b1a4cad5f" upstream="refs/heads/cm-14.1"/>
   <project groups="pdk" name="LineageOS/android_libcore" path="libcore" revision="30ff118538833844c0d72d1dc50c69c98b510861" upstream="refs/heads/cm-14.1"/>
+<!--
   <project clone-depth="1" groups="pdk,darwin,arm" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="991bc74db43849d2ec2fbc9e971549eb039708f4" upstream="refs/heads/cm-14.1"/>
+-->
   <project clone-depth="1" groups="pdk,linux,arm" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="7280ce2399316a5dbd8872e0bfe69435d8719230" upstream="refs/heads/cm-14.1"/>
   <project clone-depth="1" groups="pdk,linux,arm" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="48ef1e67aa261116d2c244a52a30b8ba044399ff" upstream="refs/heads/cm-14.1"/>
   <project clone-depth="1" groups="pdk,linux,x86" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="b3acfc1f26aae5cf8da7301e89a2594ae945c060" upstream="refs/heads/cm-14.1"/>
@@ -170,8 +172,10 @@
   <project groups="omap3" name="platform/hardware/ti/omap3" path="hardware/ti/omap3" remote="aosp" revision="40292fb9eeb2cf0bb95dc818da12ddcae40b931c" upstream="refs/tags/android-7.1.2_r29"/>
   <project groups="omap4-aah" name="platform/hardware/ti/omap4-aah" path="hardware/ti/omap4-aah" remote="aosp" revision="a62514d376a94e27bec5e932aadb67401ca550b0" upstream="refs/tags/android-7.1.2_r29"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" remote="aosp" revision="8ebb2fb2e4b92592368c1360d49d5dfa16ef56cc" upstream="refs/tags/android-7.1.2_r29"/>
+<!--
   <project clone-depth="1" groups="pdk,darwin" name="platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" remote="aosp" revision="606e79e7cd9fc1a6ebb389b5fae0658f2c5494dc" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk,darwin" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" remote="aosp" revision="4940bb51ee0e71440981e58a7fada9247579563b" upstream="refs/tags/android-7.1.2_r29"/>
+-->
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="aosp" revision="45562a53b2a5eb7c6e8f400413d19a12c660d7b1" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" remote="aosp" revision="b660e8f76f1543abf50ebfbdb8d10112d93fec3d" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a" upstream="refs/tags/android-7.1.2_r29"/>
@@ -179,7 +183,9 @@
   <project clone-depth="1" groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" revision="73ca99196723f810dad42390d154654354f57c16" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" remote="aosp" revision="6287eb468c5772f5da2c468396bdf0068a4fa2d5" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="f7e665a1af37619e136cb2b998c076e5316fe937" upstream="refs/tags/android-7.1.2_r29"/>
+<!--
   <project clone-depth="1" groups="darwin,pdk,tradefed" name="platform/prebuilts/ninja/darwin-x86" path="prebuilts/ninja/darwin-x86" remote="aosp" revision="81fb17d2dbe187ff9e9102b8c8283cf39ac3b6f2" upstream="refs/tags/android-7.1.2_r29"/>
+-->
   <project clone-depth="1" groups="linux,pdk,tradefed" name="platform/prebuilts/ninja/linux-x86" path="prebuilts/ninja/linux-x86" remote="aosp" revision="08c87a043c925cf88a98d73a8f01a9e06fab7cb9" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="23f7de5ba433fc82269ba63c203fe0a3eaf4a680" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="b5022f03051bf5ad63112659132e3ec0fa6af4ce" upstream="refs/tags/android-7.1.2_r29"/>
